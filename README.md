@@ -33,6 +33,14 @@ git checkout -b <nome-da-branch> <- Cria e já muda para a nova branch
 
 git checkout master -> Volta pra linha master
 git merge <nome-da-branch> -> Mescla a branch com a master
-git push -> aplica as atualizações na master
-
+git push -> aplica as atualizações na master  
+  
+--- REVERTER ARQUIVOS AINDA NÃO COMITADOS ---  
+git checkout -- . -> reverte todas as alterações em arquivos que estavam versionados    
+git clean -f -d   -> é para apagar todos os arquivos e diretórios criados  
+  
+--- REVERTER PARA UM COMMIT ESPECÍFICO ---  
+git reflog  -> lisata todos os commits realizados  
+git reset HEAD@{2} -> volta para o commmit ...{2}  
+  
 ```
