@@ -23,9 +23,9 @@ Navegar até a pagina do github e ir em settings pra adicionar uma nova chave ss
 dê um nome para a nova chave  
 cole a chave criada no passo anterior e salve  
 #3º Se der o erro:   
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  
 @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @  
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   
   
 Utilize o comando abaico para resetar o site  
 ssh-keygen -R github.com  
