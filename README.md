@@ -15,21 +15,21 @@
 - http://127.0.0.1:8080 <-This is a address the new project  
 
 ## --------------- ERRO NA CHAVE SSH (Obs: comandos no git bash---
-#1º -
-ssh-keygen <- utilizar esse comando para gera uma nova chave
-clip < ~/.ssh/id_ed25519.pub <- comando para copiar a chave criada para a area de transferencia
-#2º
-Navegar até a pagina do github e ir em settings pra adicionar uma nova chave ssh
-dê um nome para a nova chave
-cole a chave criada no passo anterior e salve
-#3º Se der o erro: 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-Utilize o comando abaico para resetar o site
-ssh-keygen -R github.com
-
+#1º -  
+ssh-keygen <- utilizar esse comando para gera uma nova chave  
+clip < ~/.ssh/id_ed25519.pub <- comando para copiar a chave criada para a area de transferencia  
+#2º  
+Navegar até a pagina do github e ir em settings pra adicionar uma nova chave ssh  
+dê um nome para a nova chave  
+cole a chave criada no passo anterior e salve  
+#3º Se der o erro:   
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @  
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  
+  
+Utilize o comando abaico para resetar o site  
+ssh-keygen -R github.com  
+  
 
 ## --------------- CREATE A NEW GIT REPOSITORY ---------------
 
